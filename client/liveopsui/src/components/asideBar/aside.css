@@ -1,0 +1,26 @@
+.asideContainer{
+    background-color: purple;
+    border:2px solid;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    flex:20%;
+    position: relative;
+}
+.asideContainer>button{
+    width:150px;
+    height:50px;
+    background-color: black;
+    color:white;
+    border-radius: 3px;
+    position:absolute;
+    top:40%;
+    left:10%;
+}
+.asideContainer>button:hover{
+    cursor:pointer;
+    width:200px;
+    height:40px;
+
+}

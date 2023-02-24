@@ -1,0 +1,63 @@
+.offerContainer{
+    display:flex;
+    flex-direction: column;
+    width:300px;
+    height:auto;
+    border:2px solid;
+    margin-left: 30%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    position:relative;
+}
+
+.offerContainerInfo{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+   
+}
+.offerContainerInfo>div{
+    width:40%;
+    border:2px solid;
+    border-radius: 4px;;
+    margin-top: 10px;
+}
+.priceingold{
+    color:white;
+    background-color: gold;
+}
+.priceingems{
+    color:white;
+    background-color: green;
+}
+img{
+    width:280px;
+    height:280px;
+    object-fit: contain;
+    margin:0px 10px;
+}
+.mainPageContainerbodyrightpartbuttonsection{
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin:10px 0px;
+}
+.mainPageContainerbodyrightpartbuttonsection>button:first-child{
+    background-color: green;
+    color:white;
+    position:absolute;
+    top:93%;
+    left:2%;
+    width:100px;
+    height:auto;
+}
+.mainPageContainerbodyrightpartbuttonsection>button:last-child{
+    background-color:red;
+    color:white;
+    position:absolute;
+    top:93%;
+    left:50%;
+    width:100px;
+    height:auto;
+}
